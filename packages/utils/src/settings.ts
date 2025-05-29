@@ -141,7 +141,7 @@ const customConfigs = makeValidator((x) => {
 
 export const Settings = cleanEnv(process.env, {
   ADDON_NAME: str({
-    default: 'AIOStreams',
+    default: 'Kamidake',
     desc: 'Name of the addon',
   }),
   ADDON_ID: str({
@@ -157,7 +157,7 @@ export const Settings = cleanEnv(process.env, {
     desc: 'Branding for the addon',
   }),
   SECRET_KEY: secretKey({
-    default: '',
+    default: '992eae2c1026eb1f255db43d34d25c3d',
     desc: 'Secret key for the addon, used for encryption and must be 64 characters of hex',
   }),
   API_KEY: str({
