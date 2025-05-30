@@ -157,7 +157,7 @@ export const Settings = cleanEnv(process.env, {
     desc: 'Branding for the addon',
   }),
   SECRET_KEY: secretKey({
-    default: '992eae2c1026eb1f255db43d34d25c3d',
+    default: '58B7EF8BC71B52A385E8B0C39B47174841FBBF1214C7B3271EE0372DBC94271D',
     desc: 'Secret key for the addon, used for encryption and must be 64 characters of hex',
   }),
   API_KEY: str({
